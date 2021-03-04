@@ -3,33 +3,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <Button
-        android:id="@+id/btn_ui"
+        android:id="@+id/btn_event"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="UI"
+        android:text="Click me"
+        android:textAllCaps="false"
+        android:onClick="show"/>
+
+    <com.zyx.helloworld.widget.MyButton
+        android:id="@+id/btn_my"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Button"
         android:textAllCaps="false"/>
 
     <Button
-        android:id="@+id/btn_event_listener"
+        android:id="@+id/btn_handler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="事件机制"
+        android:text="Handler"
         android:textAllCaps="false"/>
-
-    <Button
-        android:id="@+id/btn_data"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="数据存储"
-        android:textAllCaps="false"/>
-
-    <Button
-        android:id="@+id/btn_animation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="属性动画"
-        android:textAllCaps="false"/>
-
-
 </LinearLayout>
